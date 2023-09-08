@@ -1,12 +1,15 @@
 .pokemon {
     display: inline-block;
     text-align: center;
+    border: 0.1em solid;
 }
 
 .pokemon img {
     display: block;
+
+
 }
 
 .pokemon {
-    background-color: aqua;
+    background-color: rgb(211, 225, 141);
 }
