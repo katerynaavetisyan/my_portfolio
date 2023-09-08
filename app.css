@@ -6,3 +6,7 @@
 .pokemon img {
     display: block;
 }
+
+.pokemon {
+    background-color: aqua;
+}
