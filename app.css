@@ -2,14 +2,12 @@
     display: inline-block;
     text-align: center;
     border: 0.1em solid;
+    background-color: rgb(200, 207, 207);
 }
 
 .pokemon img {
     display: block;
+    background-color: rgb(184, 181, 178);
 
 
-}
-
-.pokemon {
-    background-color: rgb(211, 225, 141);
 }
