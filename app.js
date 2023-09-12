@@ -11,3 +11,8 @@ function scream() {
     console.log("Stop touching me!");
 }
 btn.onmouseenter = scream;
+
+
+document.querySelector('h1').onclick = function () {
+    alert('you clicked the h1!')
+}
