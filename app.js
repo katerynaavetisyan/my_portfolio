@@ -1,4 +1,4 @@
-const btn3 = document.querySelector('#v3');
-btn3.addEventListener('mouseup', function () {
+const btn = document.querySelector('#v3');
+btn.addEventListener('mouseup', function () {
     alert('Clicked!')
 })
