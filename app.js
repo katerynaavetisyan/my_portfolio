@@ -1,4 +1,10 @@
-const btn = document.querySelector('#v3');
-btn.addEventListener('mouseup', function () {
-    alert('Clicked!')
-})
+function twist() {
+    console.log('TWIST');
+}
+function shout() {
+    console.log('SHOUT');
+}
+const tasButton = document.querySelector('#tas');
+
+tasButton.addEventListener('click', twist)
+tasButton.addEventListener('click', shout)
