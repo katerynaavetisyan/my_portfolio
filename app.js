@@ -7,4 +7,5 @@ function shout() {
 const tasButton = document.querySelector('#tas');
 
 tasButton.addEventListener('click', twist)
+
 tasButton.addEventListener('click', shout)
