@@ -1,12 +1,11 @@
-function twist() {
-    console.log('TWIST');
+function talk() {
+    console.log('Talking');
 }
 function shout() {
     console.log('SHOUT');
 }
 const tasButton = document.querySelector('#tas');
 
-tasButton.addEventListener('click', twist)
+tasButton.addEventListener('click', talk)
 tasButton.addEventListener('click', shout)
-tasButton.addEventListener('click', twist)
-tasButton.addEventListener('click', shout)
+
