@@ -1,12 +1,4 @@
-function talk() {
-    console.log('Talking');
-}
-function shout() {
-    console.log('SHOUT');
-}
-const tasButton = document.querySelector('#tas');
-
-tasButton.addEventListener('click', talk)
-
-tasButton.addEventListener('click', shout)
-
+const button = document.querySelector('button');
+button.addEventListener('click', function () {
+    console.log('Test');
+})
