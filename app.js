@@ -1,4 +1,4 @@
 
-document.querySelector('button').addEventListener('click', function () {
-    alert("CLICK")
+document.querySelector('button').addEventListener('click', function (evt) {
+    console.log(evt);
 })
