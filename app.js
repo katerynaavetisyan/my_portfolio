@@ -5,12 +5,9 @@ document.querySelector('button').addEventListener('click', function (evt) {
 
 const input = document.querySelector('input');
 
-input.addEventListener('keydown', function () {
-    console.log("KEYDOWN");
-})
-
-input.addEventListener('keyup', function () {
-    console.log('KEYUP')
+input.addEventListener('keydown', function (e) {
+    console.log(e.key);
+    console.log(e.code);
 })
 
 
