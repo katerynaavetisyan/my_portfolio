@@ -6,5 +6,7 @@ function add() {
     }
     return sum;
 }
+
 console.log(add(15, 56, 56, 74));
+
 console.log(add(3, 4, 7));
