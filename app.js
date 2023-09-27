@@ -1,15 +1,4 @@
-
-document.querySelector('button').addEventListener('click', function (evt) {
-    console.log(evt);
-})
-
-const input = document.querySelector('input');
-
-
-
-input.addEventListener('keydown', function (e) {
-    console.log(e.key);
-    console.log(e.code);
-})
-
-
+function add(a, b) {
+    return a + b
+}
+console.log(add(15, 75));
