@@ -5,6 +5,7 @@ function add() {
     })
 }
 
-console.log(add(15, 56, 56, 74));
+console.log(add(56, 56);
 
-console.log(add(3, 4, 7));
+
+console.log(add(5, 2, 4))
