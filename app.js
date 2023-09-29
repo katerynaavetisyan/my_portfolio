@@ -1,5 +1,5 @@
 function add() {
-    let arg = Array.from(arguments);
+    let args = Array.from(arguments);
     return args.reduce(function (acc, cur) {
         return acc + cur;
     })
