@@ -9,9 +9,9 @@
 //     console.log("KEYDOWN");
 // })
 
-if ((age >= 14) && (age < 19)) {
-    status = "Eligible.";
 
-} else {
-    status = "Not eligible.";
+for (let i = 0; i <= 10; i++) {
+
+    document.write(i + '<br  />');
+
 }
