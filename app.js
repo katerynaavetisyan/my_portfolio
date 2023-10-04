@@ -9,9 +9,8 @@
 //     console.log("KEYDOWN");
 // })
 
+let i = 1,
+while (i < 100) {
 
-for (let i = 0; i < 10; i++) {
-
-    document.write(i + '<br  />');
-
+    document.write(i + ", ";)
 }
