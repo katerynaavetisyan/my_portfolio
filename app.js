@@ -9,6 +9,10 @@
 //     console.log("KEYDOWN");
 // })
 
-function addNumbers(a, b {
-    return a + b; 
-})
+function addNumbers(a, b) {
+    console.log(a + b);
+
+
+}
+
+console.log(addNumbers(5, 4));
