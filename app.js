@@ -4,8 +4,12 @@ document.querySelector('button').addEventListener('click',
         console.log(evt);
 
     })
+
 const input = document.querySelector('input');
 input.addEventListener('keydown', function () {
     console.log("KEYDOWN");
 })
 
+input.addEventListener('keyup', function () {
+    console.log("KEYUP");
+})
