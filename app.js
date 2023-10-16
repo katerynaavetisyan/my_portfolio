@@ -5,15 +5,15 @@ document.querySelector('button').addEventListener('click',
 
     })
 
-// const input = document.querySelector('input');
-// input.addEventListener('keydown', function (e) {
-//     console.log(e.key);
-//     console.log(e.code);
-// })
+const input = document.querySelector('input');
+input.addEventListener('keydown', function (e) {
+    console.log(e.key);
+    console.log(e.code);
+})
 
-// input.addEventListener('keyup', function () {
-//     console.log("KEYUP");
-// })
+input.addEventListener('keyup', function () {
+    console.log("KEYUP");
+})
 
 window.addEventListener('keydown', function (e) {
     switch (e.code) {
