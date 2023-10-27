@@ -1,15 +1,7 @@
-
-// let i = 0;
-// while
-//  (i 
-// <
-//  10) {
-//   console.log(i);
-//   i++
-// }
-
-let i = 0;
-while (i < 10) {
-    console.log(i);
-    i = i + 2;
-}
+document.querySelector('button').addEventListener('click', function (evt) {
+    console.log(evt);
+})
+const input = document.querySelector('input');
+input.addEventListener('keydown', function () {
+    console.log("Keydown")
+})
