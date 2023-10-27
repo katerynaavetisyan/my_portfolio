@@ -1,8 +1,15 @@
-for (i = 0; i < 10; i++) {
-    if (i == 5) {
 
-        continue
-        ;
-    }
+// let i = 0;
+// while
+//  (i 
+// <
+//  10) {
+//   console.log(i);
+//   i++
+// }
+
+let i = 0;
+while (i < 10) {
     console.log(i);
+    i = i + 2;
 }
