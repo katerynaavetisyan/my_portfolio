@@ -8,4 +8,5 @@ form.addEventListener("submit", function (e) {
     newLi.innerText = catName;
     list.append(newLi);
     input.value = "";
+
 })
