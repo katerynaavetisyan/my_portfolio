@@ -5,13 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Events Object</title>
+    <title>Prevent Default</title>
 
 </head>
 
 <body>
-    <input type="text">
-    <button>Click</button>
+    <h1>My Form</h1>
+    <form action="/shelter" id="shelterForm">
+        <input type="text" id="catName" />
+        <button>Submit</button>
+    </form>
+    <h2>Available Cats</h2>
+    <ul id="cats"></ul>
     <script src="app.js"></script>
 </body>
 
