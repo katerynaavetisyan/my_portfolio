@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Basics</title>
+    <title>Grocery List</title>
+
+    <script src="node_modules/babel-polyfill/dist/polyfill.js" type="text/javascript"> </script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
 </head>
 
 <body>
-    <h1>Form Events</h1>
-    <form action="/dogs" id="tweetForm">
-        <input type="text" name="username" placeholder="username">
-        <input type="text" name="tweet" placeholder="tweet">
-        <button>Post Tweet</button>
+    <h1>Grocery List</h1>
+    <form action="/nowhere">
+        <label for="product">Enter A Product</label>
+        <input type="text" id="product" name="product">
+        <label for="qty">Enter A Quantity</label>
+        <input type="number" id="qty" name="qty">
+        <button>Submit</button>
     </form>
-    <h2>Tweets:</h2>
-    <ul id="tweets"></ul>
-    <script src="app.js"></script>
+
+    <ul id="list"></ul>
 </body>
 
 </html>
