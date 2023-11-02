@@ -1,11 +1,14 @@
-const h1 = document.querySelector('h1');
-const input = document.querySelector('input');
-input.addEventListener('input', (e) => {
-    const newWelcome = input.value;
+const button = document.querySelector('#changeColor');
+const container = document.querySelector('#container');
 
-    if (newWelcome) {
-        h1.innerText = `Welcome, ${newWelcome}`;
-    } else {
-        h1.innerText = 'Enter Your Username';
-    }
-});
+button.addEventListener('click', function () {
+    container.style.backgroundColor = makeRandColor();
+})
+
+
+const makeRandColor = () => {
+    const r = Math.floor(Math.random() * 255);
+    const g = Math.floor(Math.random() * 255);
+    const b = Math.floor(Math.random() * 255);
+    return `rgb (${r}, ${g}, ${b})`;
+}
