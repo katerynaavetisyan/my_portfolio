@@ -4,7 +4,9 @@ const container = document.querySelector('#container');
 button.addEventListener('click', function () {
     container.style.backgroundColor = makeRandColor();
 })
-
+container.addEventListener('click', function () {
+    container.classList.toggle('hide');
+})
 
 const makeRandColor = () => {
     const r = Math.floor(Math.random() * 255);
