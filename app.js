@@ -1,20 +1,31 @@
-const button = document.querySelector('#changeColor');
-const container = document.querySelector('#container');
+// const lis = document.querySelectorAll('li');
+// for (let li of lis) {
+//     li.addEventListener('click', function () {
+//         li.remove();
+//     })
+// }
 
 
-button.addEventListener('click', function (e) {
-    e.stopPropagation();
-    container.style.backgroundColor = makeRandColor();
-})
 
-container.addEventListener('click', function () {
-    container.classList.toggle('hide');
-})
+const tweetsContainer = document.querySelector('#tweets');
+tweetForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const usernameInput = tweetForm.elements.username;
+    const tweetInput = tweetForm.elements.tweet;
+    addTweet(usernameInput.value, tweetInput.value)
+    usernameInput.value = '';
+    tweetInput.value = '';
 
-
-const makeRandColor = () => {
-    const r = Math.floor(Math.random() * 255);
-    const g = Math.floor(Math.random() * 255);
-    const b = Math.floor(Math.random() * 255);
-    return `rgb(${r}, ${g}, ${b})`;
+});
+const addTweet = (username, tweet) => {
+    const newTweet = document.createElement('li');
+    const bTag = document.createElement('b');
+    bTag.append(username)
+    newTweet.append(bTag);
+    newTweet.append(`- ${tweet}`)
+    tweetsContainer.append(newTweet);
 }
+
+tweetsContainer.addEventListener('click', function (e) {
+    e.target.remove();
+})
