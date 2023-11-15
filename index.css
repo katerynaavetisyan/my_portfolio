@@ -42,5 +42,6 @@ h2 {
     position: relative;
     top: 21rem;
     text-align: center;
-    color: white
+    color: white;
+    font-size: 2em
 }
