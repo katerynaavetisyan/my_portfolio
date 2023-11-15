@@ -1,0 +1,45 @@
+body {
+    background-image: url('img/kate.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#mainNavbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+#mainNavbar .nav-link {
+    color: rgb(223, 213, 213);
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(190, 159, 159);
+}
+
+#mainNavbar .navbar-brand {
+    color: white;
+    font-size: 2rem;
+    font-family: bold;
+}
+
+h1 {
+    position: relative;
+    top: 21rem;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    position: relative;
+    top: 21rem;
+    text-align: center;
+    color: white
+}
