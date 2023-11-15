@@ -21,7 +21,7 @@ body {
 }
 
 #mainNavbar .nav-link:hover {
-    color: rgb(149, 58, 58);
+    color: rgb(179, 129, 129);
 }
 
 #mainNavbar .navbar-brand {
@@ -34,8 +34,8 @@ h1 {
     position: relative;
     top: 21rem;
     text-align: center;
-    color: white;
-
+    color: rgb(255, 255, 255);
+    font-size: 4em;
 }
 
 h2 {
