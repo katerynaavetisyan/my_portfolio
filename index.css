@@ -10,9 +10,10 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 1rem;
-    font-weight: 100;
     margin-right: 50px;
     margin-left: 50px;
+
+    font: bold;
 
 }
 
@@ -31,17 +32,22 @@ body {
 }
 
 h1 {
-    position: relative;
-    top: 21rem;
     text-align: center;
-    color: rgb(255, 255, 255);
+    /* position: relative; */
+    color: white;
     font-size: 4em;
+    /* top: 200px; */
+    align-items: center;
+    /* margin-top: 10%; */
+    /* vertical-align: middle; */
 }
 
 h2 {
-    position: relative;
-    top: 21rem;
+    /* position: relative; */
+    /* top: 21rem; */
     text-align: center;
     color: white;
-    font-size: 2em
+    font-size: 2em;
+    /* top: 200px; */
+    /* align-items: center; */
 }
