@@ -32,17 +32,19 @@ body {
 }
 
 h1 {
+    margin-top: 7em;
     text-align: center;
-    /* position: relative; */
+    position: relative;
     color: white;
     font-size: 4em;
     /* top: 200px; */
     align-items: center;
-    /* margin-top: 10%; */
+
     /* vertical-align: middle; */
 }
 
 h2 {
+    height: 300px;
     /* position: relative; */
     /* top: 21rem; */
     text-align: center;
