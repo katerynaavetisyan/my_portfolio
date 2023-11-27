@@ -13,6 +13,7 @@ body {
     justify-content: space-between;
     padding-inline: 50px;
     padding-top: 10px;
+    margin: 0;
 }
 
 .navbar a {
@@ -67,4 +68,35 @@ h1 {
 
 h2 {
     font-size: 2em;
+}
+
+section {
+    background: white;
+    display: flex;
+    text-align: center;
+    color: black;
+    margin-top: 1000px;
+    flex-direction: column;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 2em;
+    justify-content: center;
+}
+
+.imageText {
+    display: flex;
+}
+
+ul {
+    columns: 2;
+    text-align: left;
+
 }
