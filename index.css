@@ -4,22 +4,25 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
 
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
-    font-size: 1.5rem;
-    font-family: Verdana;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-inline: 50px;
     padding-top: 10px;
-    margin: 0;
     background-color: black;
-    position: fixed;
+    font-family: Verdana;
+    position: sticky;
     top: 0;
-    width: 90%;
-
+    left: 0;
+    height: 50px;
 }
 
 .navbar a {
@@ -42,32 +45,20 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-    font-size: 0.8rem;
 }
 
 .nav-right-side-links a {
     color: rgb(170, 182, 192);
 }
 
-.page-wrapper {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-
-}
-
-
-.greeting-note {
+.intro-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
+    width: 100vw;
+    height: 100vh;
 }
 
 h1 {
@@ -78,27 +69,24 @@ h2 {
     font-size: 2em;
 }
 
-section {
-
-    margin-top: 30px;
-    background: white;
+.details-wrapper {
     display: flex;
+    flex-direction: column;
     text-align: left;
     color: black;
-    margin-top: 1000px;
-    flex-direction: column;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
 }
 
 img {
     width: 250px;
     height: 250px;
-    padding: 1.2em;
-
+    padding: 0.5em;
 }
 
 .title {
     display: flex;
-    flex-direction: row-reverse;
     font-size: 2em;
     justify-content: center;
 }
@@ -110,5 +98,4 @@ img {
 ul {
     columns: 2;
     text-align: left;
-
 }
