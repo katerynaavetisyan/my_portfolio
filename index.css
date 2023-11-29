@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 .page-wrapper {
@@ -80,9 +81,9 @@ h2 {
 }
 
 img {
-    width: 250px;
-    height: 250px;
-    padding: 0.5em;
+    width: 300px;
+    height: 300px;
+    margin: 1em;
 }
 
 .title {
