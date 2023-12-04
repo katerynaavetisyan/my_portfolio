@@ -78,8 +78,6 @@ h2 {
     text-align: left;
     color: black;
     background-color: white;
-    /* width: 100vw; */
-    height: 100vh;
 }
 
 
@@ -105,8 +103,13 @@ ul {
 }
 
 .services-wrapper {
-    display: flex;
-    flex-direction: column;
     color: black;
     background-color: white;
+
+}
+
+.services-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 }
