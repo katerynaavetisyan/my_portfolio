@@ -103,3 +103,10 @@ ul {
     columns: 2;
     text-align: left;
 }
+
+.services-wrapper {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: white;
+}
