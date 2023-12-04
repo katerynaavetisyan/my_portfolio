@@ -110,6 +110,41 @@ ul {
 
 .services-details {
     display: grid;
+    text-align: center;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
+
+
+}
+
+.card {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 5px;
+    border-color: rgb(227, 224, 224);
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.card:hover {
+    border-color: #008000;
+
+}
+
+i:hover {
+    color: #008000
+}
+
+section {
+    padding: 30px;
+}
+
+.card-text {
+    font-size: 12px;
+    color: rgb(170, 182, 192);
+}
+
+.card-title {
+    font-size: 15px;
 }
