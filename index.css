@@ -129,10 +129,9 @@ ul {
 
 .card:hover {
     border-color: #008000;
-
 }
 
-i:hover {
+.card:hover .servicesIcon {
     color: #008000
 }
 
