@@ -117,7 +117,7 @@ ul {
 
 }
 
-/* .card {
+.card {
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-radius: 5px;
@@ -125,7 +125,7 @@ ul {
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-} */
+}
 
 .card:hover {
     border-color: #008000;
