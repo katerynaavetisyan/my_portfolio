@@ -80,7 +80,7 @@ h2 {
 }
 
 
-img {
+.about-me-img {
     width: 300px;
     height: 300px;
     margin: 1em;
@@ -102,7 +102,6 @@ ul {
 }
 
 .services-wrapper {
-    color: black;
     background-color: white;
 
 }
@@ -141,8 +140,58 @@ section {
 .card-text {
     font-size: 13px;
     color: rgb(170, 182, 192);
+    text-align: left;
+
 }
 
 .card-title {
     font-size: 15px;
+}
+
+.portfolio-wrapper {
+    background-color: white;
+}
+
+.portfolio-details {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+
+}
+
+.portfolio-card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(227, 224, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+img {
+    width: 286px;
+    height: 200px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+a {
+    background-color: #008000;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+
+
+
+.portfolio-card-text {
+    font-size: 13px;
+    color: rgb(170, 182, 192);
+    text-align: left;
+    padding: 10px;
 }
