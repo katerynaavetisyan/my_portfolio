@@ -177,7 +177,7 @@ img {
     border-top-left-radius: 5px;
 }
 
-a {
+.portfolio {
     background-color: #008000;
     color: white;
     text-decoration: none;
@@ -194,4 +194,8 @@ a {
     color: rgb(170, 182, 192);
     text-align: left;
     padding: 10px;
+}
+
+.contact-wrapper {
+    background-color: white;
 }
