@@ -211,7 +211,7 @@ input[type=text],
 select,
 textarea {
     width: 100%;
-    border: 1px solid rgb(227, 221, 221);
+    border: 1px solid hwb(0 91% 7%);
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 2px;
@@ -226,4 +226,17 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.social-wrapper {
+    background-color: grey;
+    padding: 3px;
+
+    text-align: center;
+}
+
+#social_media {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
 }
