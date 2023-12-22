@@ -242,7 +242,7 @@ input[type=submit] {
 }
 
 .kate-wrapper {
-    background-color: grey;
+    background-color: rgb(157, 54, 54);
     padding: 3px;
     text-align: center;
 }
