@@ -170,9 +170,9 @@ section {
     padding-bottom: 15px;
 }
 
-img {
-    width: 286px;
-    height: 200px;
+.portfolio-img {
+    width: 30vw;
+    height: 20vh;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
