@@ -1,4 +1,5 @@
 const header = document.querySelector('.navbar')
+
 window.onscroll = function () {
     const top = document.documentElement.scrollTop;
     if (top >= 100) {
