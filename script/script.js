@@ -8,9 +8,3 @@ window.onscroll = function () {
         header.classList.remove("navbarDark");
     }
 };
-function trigger() {
-    document.getElementById("hover").addEventListener("mouseover", popup);
-    function popup() {
-        alert("Welcome to my WebPage!!!");
-    }
-}
